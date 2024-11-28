@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+}
+
+/* Navbar Style */
+.navbar {
+    width: 100%;
+    padding: 10px 9%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+/* Navbar link's style */
+a {
+    color: aqua;
+    text-decoration: none;
+    box-shadow: 0px 2px 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(239, 23, 239);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .6s;
+}
+
+.navbar ul li a:hover {
+    color: rgb(156, 210, 74);
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    top: 180px;
+    color: white;
+    position: absolute;
+    float: left;
+}
+
+.container h1 {
+    margin: 10px 150px;
+    padding: 10px 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: powderblue;
+}
+
+.container p {
+    text-indent: 50px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    line-height: 30px;
+    color: pink;
+}
+
+.info {
+    height: 100px;
+}
+
+.image {
+    border: 5px solid black;
+    box-shadow: 0px 2px 2px 5px white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 150px;
+
+}
+
+.info h3 {
+    color: orange;
+    position: relative;
+    float: right;
+    top: 450px;
+    left: 200px;
+}
+
+.about h1 {
+    color: rgb(156, 210, 74);
+    position: relative;
+    top: 200px;
+    left: 150px;
+    margin-top: 50px;
+}
+
+.about p {
+    color: pink;
+    position: relative;
+    top: 230px;
+    margin-left: 150px;
+    width: 600px;
+    text-indent: 70px;
+    line-height: 30px;
+}
+
+.education {
+    /* border: 5px solid blue; */
+    position: relative;
+    top: 300px;
+    width: 600px;
+    display: inline-block;
+}
+
+.education h1 {
+    color: rgb(156, 210, 74);
+    position: relative;
+    left: 150px;
+    margin: 40px 0px;
+}
+
+.education li {
+    color: rgb(243, 20, 124);
+    line-height: 40px;
+    margin-left: 200px;
+}
+
+.college {
+    position: relative;
+    width: 900px;
+    float: right;
+    top: 300px;
+}
+
+.college h1 {
+    color: rgb(156, 210, 74);
+    position: relative;
+    left: 100px;
+    margin: 40px 0px;
+}
+
+.college p {
+    color: plum;
+    line-height: 40px;
+    margin-left: 100px;
+}
+
+.skill {
+
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 400px;
+    margin-left: 100px;
+}
+
+.skill h1 {
+    color: rgb(156, 210, 74);
+    margin: 20px 50px;
+    font-size: 40px;
+}
+
+.skill ul li {
+    margin: 20px 20px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.project {
+    position: absolute;
+    margin-top: 70px;
+    float: left;
+    left: 400px;
+    margin-left: 400px;
+    height: 300px;
+}
+
+.project h1 {
+    margin: 20px 20px;
+    padding-left: 30px;
+    color: rgb(156, 210, 74);
+    font-size: 40px;
+}
+
+.project h3 {
+    color: aqua;
+    margin: 10px 0px 10px 50px;
+    padding-left: 50px;
+}
+
+.project p {
+    margin: 10px 0px 10px 50px;
+    padding-left: 80px;
+}
+
+.follow {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    left: 350px;
+    margin-left: 200px;
+    display: flex;
+    bottom: 50px;
+}
+
+.follow img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.follow a {
+    margin-right: 70px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    height: 40px;
+}
+
+.btn {
+    position: relative;
+    top: 500px;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.btn a {
+    font-size: large;
+    background-color: black;
+    color: lawngreen;
+    padding: 10px;
+}
+
+.contact {
+    position: relative;
+    top: 500px;
+    margin-left: 400px;
+    padding: 20px;
+    width: 400px;
+}
+
+.contact li {
+    margin: 10px;
+    color: hotpink;
+}
+
+/* Footer Style */
+.footer {
+    background-color:rgb(44, 9, 44);
+    color: #ecf0f1;
+    padding: 40px 0;
+    position: relative;
+    top: 600px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: yellow;
+    margin: 0px 0px 20px 50px;
+    width: 100px;
+}
+
+.footer-section li {
+    font-size: 14px;
+    margin: 10px;
+    display: flex;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 17px;
+    width: 100px;
+    text-align: center;
+}
+
+.footer-section ul li a:hover {
+    color: powderblue;
+    font-size: large;
+
+}
+
+.footer-bottom {
+    background-color: gray;
+    padding: 20px;
+    color: purple;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
